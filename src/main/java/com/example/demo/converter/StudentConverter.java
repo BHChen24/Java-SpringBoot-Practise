@@ -11,4 +11,10 @@ public class StudentConverter {
         studentDTO.setEmail(student.getEmail());
         return studentDTO;
     }
+    public static Student convertStudentDTOToStudent(StudentDTO studentDTO) {
+        Student student = new Student();
+        student.setName(studentDTO.getName());
+        student.setEmail(studentDTO.getEmail());
+        return student;
+    }
 }
