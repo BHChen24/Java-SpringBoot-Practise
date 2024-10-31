@@ -31,12 +31,12 @@ public class Student {
     @Column(name="email")
     private String email;
 
+    @Column(name="age")
+
+    private int age;
     public Long getId() {
         return id;
     }
-
-    @Column(name="age")
-    private int age;
 
     public String getName() {
         return name;
